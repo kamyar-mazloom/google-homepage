@@ -1,4 +1,14 @@
-<style>
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="icon" href="https://www.google.com/favicon.ico"> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">       
+        <style>
+    body{
+        margin:0px;
+        padding: 0px;
+    }
     ul.top-navbar{
         list-style-type: none;
         margin: 0;
@@ -27,8 +37,8 @@
         margin: 0;
         padding: 0;
         position: absolute;
-        left: -10px;
-        bottom: 10px;
+        left: 0px;
+        bottom: 0px;
         width: 100%;
         background-color: #cacaca;
     }
@@ -52,35 +62,37 @@
 }
     .logo {
         position: absolute;
-        top: 140px;
+        top: 240px;
         display: flex;
         flex-direction: column;
 }
     .search-bar {
         position: absolute;
-        top: 240px;
+        top: 340px;
         display: flex;
-        flex-direction: column;
-        width: 300px;
-        border: 1px solid #dcdcdc;
+        flex-direction: row;
+        width: 500px;
+        border: 2px solid #a39a9a;
         border-radius: 30px;
 }
     .search-buttons {
         position: absolute;
-        top: 30px;
+        top: 380px;
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 260px;
         flex-direction: row;
 }
 </style>
-
+</head>
+<body>
 <div>
 <div>
     <ul class="top-navbar">
         <li class="top-navbar-left">About</li>
         <li class="top-navbar-left">Store</li>
         <li class="top-navbar-right signin">Sign in</li>
+        <li class="material-icons top-navbar-right">apps</li>
         <li class="top-navbar-right">Images</li>
         <li class="top-navbar-right">Gmail</li>
     </ul>
@@ -92,7 +104,8 @@
     </div>
 
     <div class="search-bar">
-     <input type="text" placeholder=""
+        <span class="material-icons">search</span>
+        <input style="width: 460px" type="text" placeholder="">
     </div>
 
     <div class="search-buttons">
@@ -112,3 +125,5 @@
         <li class="bottom-navbar-right">Privacy</li>
 </div>
 </div>
+</body>
+</html>
