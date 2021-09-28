@@ -6,6 +6,6 @@ This is my attempt at building a clone of an existing Internet page with the use
 
 [Live Demo](https://kamyar-mazloom.github.io/weather-app/) :point_left:
 
-![Google Homepage Demo](demo/google-homepage-demo.gif)
+![Google Homepage Demo](demo/2021-09-28 12.34.36.gif)
 
 
